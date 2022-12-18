@@ -56,3 +56,67 @@
     box-shadow: 0 0 15px yellow;
 }
 
+
+/* main */
+
+.main {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgba(137, 43, 226, 0.397);
+}
+
+.about__me {
+ margin: 30px;
+ padding: 20px;
+}
+
+.skills {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.code__example {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.codewar {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgba(137, 43, 226, 0.397);
+}
+
+.expirience {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.education {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.language__knowladge {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
