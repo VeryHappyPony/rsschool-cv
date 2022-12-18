@@ -8,3 +8,30 @@
     font-size: 24px;
     font-weight: 400;
 }
+
+
+/* nav */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+    background-color: rgba(137, 43, 226, 0.397);
+    padding: 10px;
+}
+
+#nav a {
+    color: black;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+#nav a:hover {
+    color: gold;
+    text-shadow: 0 0 3px gold;
+    text-decoration: none;
+    transition: 1.2s;
+}
