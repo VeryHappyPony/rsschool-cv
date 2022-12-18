@@ -1,8 +1,8 @@
-(https://VeryHappyPony.github.io/rsschool-cv/cv
+## [rsschool-cv](https://VeryHappyPony.github.io/rsschool-cv/cv "rsschool-cv")
 
-Mironov Ivan
+# Mironov Ivan
 
-Contacts
+### Contacts
 
 * Location: Hungary Budapest 
 
@@ -14,12 +14,12 @@ Contacts
 
 * Discord: HappyPony#6210
 
-About Me
+## About Me
 
 I know how to work in a team, I am hardworking, I like to learn new things, I adapt quickly.
 You can rely on me in many matters. I love meeting new people. I like collaborative problem solving.
 
-Skills
+## Skills
 
 * HTML
 
@@ -29,7 +29,7 @@ Skills
 
 * Git
 
-Code Example
+## Code Example
 
 ```
 function sum(a, b) {
@@ -40,11 +40,11 @@ let result = sum(1, 2);
 alert( result );
 ```
 
-Experience
+## Experience
 
 * Gaining experience at the moment
 
-Education
+## Education
 
 * School: Lyceum №82 of Saint-Petersburg
 
@@ -52,7 +52,7 @@ Education
 
 * Courses: RSSchool JS/FE Pre-School 2022 Q4 (in progress)
 
-Language knowlage
+## Language knowlage
 
 1. Russian: native speaker
 
