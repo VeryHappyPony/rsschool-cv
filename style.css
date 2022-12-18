@@ -9,7 +9,6 @@
     font-weight: 400;
 }
 
-
 /* nav */
 
 .nav {
@@ -55,7 +54,6 @@
     border-radius: 2rem;
     box-shadow: 0 0 15px yellow;
 }
-
 
 /* main */
 
@@ -120,7 +118,6 @@
     background-color: rgb(249, 193, 193);
 }
 
-
 /* footer */
 
 .footer {
@@ -180,3 +177,4 @@
     border-top: 5px solid rgb(79, 79, 79);
     border-left: 5px solid rgb(79, 79, 79);
 }
+
