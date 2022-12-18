@@ -35,3 +35,24 @@
     text-decoration: none;
     transition: 1.2s;
 }
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgba(137, 43, 226, 0.397);    
+}
+
+.header__photo {
+    height: 350px;
+    border: 3px solid yellow;
+    border-radius: 2rem;
+    box-shadow: 0 0 15px yellow;
+}
+
