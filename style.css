@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.body {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    background-color: rgb(249, 193, 193);
+    font-weight: 500;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 5px solid yellow;
+    background-color: rgba(137, 43, 226, 0.397);
+    padding: 10px;
+}
+
+#nav a {
+    color: black;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+#nav a:hover {
+    color: gold;
+    text-shadow: 0 0 3px gold;
+    text-decoration: none;
+    transition: 1.2s;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgba(137, 43, 226, 0.397);    
+}
+
+.header__photo {
+    height: 350px;
+    border: 3px solid yellow;
+    border-radius: 2rem;
+    box-shadow: 0 0 15px yellow;
+}
+
+/* main */
+
+.main {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgba(137, 43, 226, 0.397);
+}
+
+.about__me {
+ margin: 30px;
+ padding: 20px;
+}
+
+.skills {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.code__example {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.codewar {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgba(137, 43, 226, 0.397);
+}
+
+.expirience {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.education {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+.language__knowladge {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid yellow;
+    border-radius: 2rem;
+    background-color: rgb(249, 193, 193);
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 0;
+    padding-top: 15px;
+    background-color: rgba(137, 43, 226, 0.397);
+    border-top: 5px solid rgb(255, 255, 0);
+    }
+
+/* back to top button */
+
+.back__top {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    height: 50px;
+    width: 50px;
+    border: 3px solid rgb(244, 1, 1);
+    border-radius: 50%;
+    background-color: greenyellow;
+    filter: brightness(0.3);
+    transition: 0.5s;
+}
+
+.back__top:hover,
+.back__top:focus {
+    filter: brightness(1.0);
+    outline: none;
+    transition: 0.5s;
+}
+
+.back__top::before,
+.back__top::after {
+        content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back__top::before {
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgb(79, 79, 79)
+}
+
+.back__top::after {
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid rgb(79, 79, 79);
+    border-left: 5px solid rgb(79, 79, 79);
+}
