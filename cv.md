@@ -1,5 +1,7 @@
 Mironov Ivan
 
+![img](https://sun9-east.userapi.com/sun9-28/s/v1/if1/2q6gpKFzBCxoZiPppZ-bJnu6TjmZOqt6iu7icffazG3KvehnULH1-XrCm6Pm6pgykGLwBhHK.jpg?size=811x1080&quality=96&type=album)
+
 Contacts
 
 Location: Hungary Budapest 
@@ -28,6 +30,15 @@ JS (Basic)
 Git
 
 Code Example
+
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
 
 Experience
 
